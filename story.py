@@ -1,0 +1,5 @@
+noun = raw_input("enter a noun")
+verb = raw_input("enter a verb")
+adjective = raw_input("Enter an adjective")
+adverb = raw_input("enter an adverb")
+print "Do you %s your %s %s %s" % (verb,adjective, noun,adverb)
