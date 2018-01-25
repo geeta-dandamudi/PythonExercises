@@ -1,0 +1,5 @@
+people =raw_input("enter no. of people")
+pizza = raw_input("enter no. of pizza")
+share = int(pizza) / int(people)
+leftovers = int(pizza) % int(people)
+print "There are %s people with %s pizza slices, and each get %s slices while %s are leftout" %(people,pizza,share,leftovers)
